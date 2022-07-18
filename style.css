@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+}
+header {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 1.5em;
+  background-color: gray;
+  color: white;
+}
+.main {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 52px 12px 12px 12px;
+  overflow-x: auto;
+  background-color: white;
+}
+.sub-container {
+  margin: auto;
+  min-width: 250px;
+  width: 250px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: rgb(228, 228, 228);
+}
+.name {
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #ccc;
+}
+.from {
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #ccc;
+}
+.univercity {
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #ccc;
+}
+.food {
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #ccc;
+}
+.music {
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #ccc;
+}
+.Language {
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #ccc;
+}
+.num1 {
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #ccc;
+}
+.num2 {
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #ccc;
+}
+.result {
+  margin: auto;
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #ccc;
+}
+.cal {
+  margin: auto;
+  padding: 4px;
+  background-color: rgb(175, 176, 178);
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #ccc;
+}
+.clear {
+  margin: auto;
+  padding: 4px;
+  background-color: rgb(175, 176, 178);
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #ccc;
+}
+.IO {
+  display: flex;
+}
+.m {
+  justify-content: center;
+}

@@ -9,8 +9,66 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <header>
+      <div class="header">ポートフォリオ</div>
+    </header>
+    <br />
+    <div class="main">
+      <div class="sub-container">
+        <h2 class="sub-header">Basic Information</h2>
+        <br />
+        <div id="name">
+          名前:
+          <div class="name" id="MyName">山本和</div>
+        </div>
+
+        <div>
+          出身地:
+          <div class="from" id="from">京都</div>
+        </div>
+        <div>
+          大学
+          <div class="univercity" id="univercity">信州大学</div>
+        </div>
+      </div>
+      <!--サブ2-->
+      <div class="sub-container">
+        <h2 class="sub-header" id="dislike">Favorite</h2>
+        <br />
+        <div>
+          食べ物
+          <div class="food" id="food">寿司</div>
+        </div>
+        <div>
+          アーティスト
+          <div class="music" id="music">iri</div>
+        </div>
+        <div>
+          プログラミング言語
+          <div class="Language" id="Language">Python</div>
+        </div>
+      </div>
+      <!--サブ3-->
+      <div class="sub-container">
+        <h2 class="sub-header">GCD</h2>
+        <div class="list-footer">
+          <div>数値1</div>
+          <input type="text" class="num1" id="num1" />
+          <div>数値2</div>
+          <input type="text" class="num2" id="num2" />
+          <br />
+          <br />
+          <div class="IO">
+            <button id="cal" class="cal">計算</button>
+            <button id="clear" class="clear">clear</button>
+            <br />
+            <output class="result" id="result">Unknown</output>
+          </div>
+        </div>
+      </div>
+      <div>※詳細はマウスを重ねる</div>
+    </div>
+
     <script src="main.js"></script>
-    <div>和</div>
   </body>
 </html>
